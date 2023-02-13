@@ -1,12 +1,18 @@
 {
   "name": "user-auth-microservice",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple user authentication microservice.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Eric Wilson",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "joi": "^17.7.1",
+    "jsonwebtoken": "^9.0.0",
+    "uuid": "^9.0.0"
+  }
 }
